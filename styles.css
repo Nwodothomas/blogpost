@@ -1,0 +1,249 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation link styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  color: #333; /* Update the link color to a different value */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff; /* Update the link color on hover if desired */
+}
+
+
+/* Banner image styles */
+  .banner {
+    text-align: center;
+  }
+
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Introduction section styles */
+  #introduction {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  #introduction h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #introduction p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+/* Story section styles */
+#story {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#story h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#story p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Accomplishments section styles */
+#accomplishments {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#accomplishments h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#accomplishments h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#accomplishments p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#accomplishments ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+#accomplishments li {
+  margin-bottom: 10px;
+}
+
+/* Challenge section styles */
+#challenge {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#challenge h2,
+#challenge h3,
+#challenge p {
+  text-align: left;
+}
+
+/* Learned section styles */
+#learned {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#learned h2,
+#learned h3,
+#learned p {
+  text-align: left;
+}
+
+#learned ul {
+  text-align: left;
+  padding-right: 0;
+}
+
+#learned li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+  /* About section styles */
+  #about {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  #about h2 {
+    text-align: left;
+  }
+
+  #about-content {
+    text-align: left;
+  }
+
+  #about-content p {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px; /* Add margin for spacing between columns */
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.footer-column h3 {
+  text-align: left;
+  margin-top: 0; /* Add margin to adjust header spacing */
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Add margin to remove default spacing */
+}
+
+.footer-column p {
+  margin-top: 0; /* Add margin to adjust paragraph spacing */
+}
+
+.copywrite {
+  margin-top: 20px; /* Add margin to separate copyright from content */
+}
+.footer-column.align-right .payment-api-container {
+  text-align: right;
+}
+
+.footer-column.align-right .payment-api-container h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.footer-column.align-right .payment-api-container p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.footer-column.align-center h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: skyblue;
+}
+
